@@ -1,0 +1,243 @@
+[
+    {
+      "type": "event",
+      "name": "AllArticlesFetched",
+      "inputs": [
+        {
+          "type": "tuple[]",
+          "name": "articles",
+          "components": [
+            {
+              "type": "uint256",
+              "name": "id",
+              "internalType": "uint256"
+            },
+            {
+              "type": "string",
+              "name": "title",
+              "internalType": "string"
+            },
+            {
+              "type": "string",
+              "name": "description",
+              "internalType": "string"
+            },
+            {
+              "type": "string",
+              "name": "articleType",
+              "internalType": "string"
+            },
+            {
+              "type": "string",
+              "name": "ipfsHash",
+              "internalType": "string"
+            },
+            {
+              "type": "address",
+              "name": "journalist",
+              "internalType": "address"
+            }
+          ],
+          "indexed": false,
+          "internalType": "struct Newscontract.ArticleSummary[]"
+        }
+      ],
+      "outputs": [],
+      "anonymous": false
+    },
+    {
+      "type": "event",
+      "name": "ArticlePublished",
+      "inputs": [
+        {
+          "type": "uint256",
+          "name": "id",
+          "indexed": false,
+          "internalType": "uint256"
+        },
+        {
+          "type": "string",
+          "name": "title",
+          "indexed": false,
+          "internalType": "string"
+        },
+        {
+          "type": "string",
+          "name": "description",
+          "indexed": false,
+          "internalType": "string"
+        },
+        {
+          "type": "string",
+          "name": "articleType",
+          "indexed": false,
+          "internalType": "string"
+        },
+        {
+          "type": "string",
+          "name": "ipfsHash",
+          "indexed": false,
+          "internalType": "string"
+        },
+        {
+          "type": "address",
+          "name": "journalist",
+          "indexed": false,
+          "internalType": "address"
+        }
+      ],
+      "outputs": [],
+      "anonymous": false
+    },
+    {
+      "type": "function",
+      "name": "addArticle",
+      "inputs": [
+        {
+          "type": "string",
+          "name": "_title",
+          "internalType": "string"
+        },
+        {
+          "type": "string",
+          "name": "_description",
+          "internalType": "string"
+        },
+        {
+          "type": "string",
+          "name": "_articleType",
+          "internalType": "string"
+        },
+        {
+          "type": "string",
+          "name": "_content",
+          "internalType": "string"
+        },
+        {
+          "type": "string",
+          "name": "_ipfsHash",
+          "internalType": "string"
+        }
+      ],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "articleCount",
+      "inputs": [],
+      "outputs": [
+        {
+          "type": "uint256",
+          "name": "",
+          "internalType": "uint256"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "articles",
+      "inputs": [
+        {
+          "type": "uint256",
+          "name": "",
+          "internalType": "uint256"
+        }
+      ],
+      "outputs": [
+        {
+          "type": "uint256",
+          "name": "id",
+          "internalType": "uint256"
+        },
+        {
+          "type": "string",
+          "name": "title",
+          "internalType": "string"
+        },
+        {
+          "type": "string",
+          "name": "description",
+          "internalType": "string"
+        },
+        {
+          "type": "string",
+          "name": "articleType",
+          "internalType": "string"
+        },
+        {
+          "type": "string",
+          "name": "content",
+          "internalType": "string"
+        },
+        {
+          "type": "address",
+          "name": "journalist",
+          "internalType": "address"
+        },
+        {
+          "type": "string",
+          "name": "ipfsHash",
+          "internalType": "string"
+        }
+      ],
+      "stateMutability": "view"
+    },
+    {
+      "type": "function",
+      "name": "getAllArticles",
+      "inputs": [],
+      "outputs": [],
+      "stateMutability": "nonpayable"
+    },
+    {
+      "type": "function",
+      "name": "getArticle",
+      "inputs": [
+        {
+          "type": "uint256",
+          "name": "_id",
+          "internalType": "uint256"
+        }
+      ],
+      "outputs": [
+        {
+          "type": "uint256",
+          "name": "",
+          "internalType": "uint256"
+        },
+        {
+          "type": "string",
+          "name": "",
+          "internalType": "string"
+        },
+        {
+          "type": "string",
+          "name": "",
+          "internalType": "string"
+        },
+        {
+          "type": "string",
+          "name": "",
+          "internalType": "string"
+        },
+        {
+          "type": "string",
+          "name": "",
+          "internalType": "string"
+        },
+        {
+          "type": "address",
+          "name": "",
+          "internalType": "address"
+        },
+        {
+          "type": "string",
+          "name": "",
+          "internalType": "string"
+        }
+      ],
+      "stateMutability": "view"
+    }
+  ]

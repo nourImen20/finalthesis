@@ -1,0 +1,107 @@
+.footer{
+   background-color: var(--color-text);
+}
+.section__padding{
+    padding: 4rem 4rem;
+}
+
+.sb__footer{
+    display: flex;
+    flex-direction: column;
+}
+.sb__footer-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: left;
+}
+.sb__footer-links-div{
+    width: 180px;
+    margin: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    color:var(--color-bg);
+}
+a{
+    text-decoration: none;
+}
+
+.follow{
+    justify-content:flex-start;
+    flex-direction: row;
+}
+.follow__text{
+    font-size: 12px;
+}
+
+.sb__footer-links-div h4{
+    font-family:  var(--font-family);;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17px;
+    margin-bottom: 0.9rem;
+    text-transform: capitalize;
+        color:var(--color-bg);
+
+}
+.sb__footer-links-div p{
+    font-family:  var(--font-family);;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    text-transform: lowercase;
+    cursor: pointer;
+    color:var(--color-bg);
+    margin: 0.5rem 0;
+}
+
+.contactimg {
+    width: 6px;
+    height: 6px;
+    margin-top: .8rem;
+}
+.sb__footer-below{
+    background-color: var(--color-text);
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    width: 100%;
+    align-items: center;
+    margin-top: 0.5rem;
+
+}
+
+.sb__footer-below-links{
+     display: flex;
+    flex-direction: row;
+    
+}
+.sb__footer-below-links p{
+    color:var(--color-bg);
+    font-family: var(--font-family);
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15px;
+    text-transform: capitalize;
+    margin-left: 2rem;
+}
+.sb__footer-copyright p{
+    color:var(--color-bg);
+        font-size: 13px;
+        font-style: 15px;
+        font-weight: 600;
+        line-height: 15px;
+        text-transform: capitalize;
+    
+}
+
+.footer p{
+    text-transform: capitalize;
+}

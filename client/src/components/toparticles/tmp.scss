@@ -1,0 +1,41 @@
+
+.imagee{
+    
+    border: 1px solid #000;
+    width: 100%;
+    object-fit: fill;
+    height:'280px';
+}
+
+.author-img {
+    width: 2rem !important;
+    height: 2rem;  
+    border-radius: 50%;
+    object-fit: fill;
+    margin-top: 0.5rem;
+    margin-left: 0.7rem;
+  }
+  
+.author{
+    align-items:flex-start;
+    justify-content: center;
+    margin-top: 18px;
+    color: black;
+    font-family: var(--font-family);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.name{
+    color: var(--color-button);
+}
+.type-article{
+    color: var(--color-button);
+    font-size: 14px;
+    font-family: var(--font-family);
+    text-transform: uppercase;
+    font-weight: 400;
+    
+}

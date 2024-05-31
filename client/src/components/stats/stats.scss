@@ -1,0 +1,24 @@
+.stat-desc{
+    color: var(--color-text);
+  
+    font-family: var(font-family);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+    justify-content: center;
+    margin-left: 10px;
+}
+.stat-title{
+    color: var(--color-button);
+    font-family:  var(font-family);;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.statistic-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
